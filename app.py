@@ -15,3 +15,4 @@ project_2_page = st.Page(
 
 st.sidebar.text("made with 🤍 by gianna")
 pg = st.navigation(pages=[project_1_page, project_2_page])
+pg.run()
